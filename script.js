@@ -255,7 +255,7 @@ function trocarImagem(escolha) {
     const imagemnova=document.getElementById('imagemPrincipal');
     switch(escolha){
         case "1":
-          urlNova = 'café.png';
+          urlNova = 'https://conhecimentocientifico.r7.com/corpos-celestes/';
           textoprincipal.innerText="Corpos celeste";
           texto.innerText="Corpos celestes são todo o objeto e matérias que existem no espaço sideral. Eles se dividem entre os que possuem luz própria, como as estrelas, e o que são iluminados por outras fontes, como planeta, luas e cometas.";
           descrevefigura.innerText="Imagem do Sol na cor amarela ";
